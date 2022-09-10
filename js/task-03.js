@@ -31,7 +31,7 @@ const images = [
 const listRef = document.querySelector('.images');
 
 const addGalaryItemsEl = images.map(({url, alt}) => {
-    return `<li class='images__item' style="display: flex, flex-wrap: wrap, justify-content: space-between"><img src="${url}" alt="${alt}" width='650'></li>`;
+    return `<li class='images__item'><img src="${url}" alt="${alt}" height='450'></li>`;
   });
 
 
